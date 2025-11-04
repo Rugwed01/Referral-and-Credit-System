@@ -8,6 +8,7 @@ export { Input } from './Input';
 export { Card } from './Card';
 export { Modal } from './Modal';
 export { Spinner } from './Spinner';
+export { NotificationContainer, NotificationToast } from './NotificationToast';
 
 // Re-export types for convenience
 export type { ButtonProps } from '@/types';
