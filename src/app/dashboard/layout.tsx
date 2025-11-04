@@ -3,6 +3,8 @@
  * Protected layout for dashboard pages
  */
 
+'use client';
+
 import { ReactNode } from 'react';
 import { AppShell } from '@/components/layout';
 import { useIsAuthenticated } from '@/stores';
