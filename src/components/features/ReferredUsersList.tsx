@@ -3,6 +3,8 @@
  * Displays list of users who have been referred by the current user
  */
 
+'use client';
+
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Users, UserCheck, Clock, ChevronDown, ChevronUp } from 'lucide-react';
