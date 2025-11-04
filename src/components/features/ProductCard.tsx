@@ -152,10 +152,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
           {/* Additional Info */}
           <motion.div
-            className="mt-4 pt-4 border-t border-border"
+            className="mt-4 pt-4 border-t border-border opacity-0"
             initial={{ opacity: 0 }}
             whileHover={{ opacity: 1 }}
-            className="opacity-0"
           >
             <p className="text-xs text-muted-foreground text-center">
               Instant access • 30-day money-back guarantee • 24/7 support
