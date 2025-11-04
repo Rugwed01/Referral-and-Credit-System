@@ -3,6 +3,8 @@
  * Grid layout for displaying products with filtering and search
  */
 
+'use client';
+
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, ShoppingCart } from 'lucide-react';
