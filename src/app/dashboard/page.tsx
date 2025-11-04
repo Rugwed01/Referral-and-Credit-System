@@ -3,6 +3,8 @@
  * Main user dashboard with referral metrics and tools
  */
 
+'use client';
+
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Users, DollarSign, ShoppingCart, TrendingUp } from 'lucide-react';
