@@ -37,6 +37,7 @@ export default function DashboardPage() {
   const referralCode = useReferralCode();
   const referralLink = useReferralLink();
   const metrics = useReferralMetrics();
+  const referredUsers = useReferredUsers();
   const { loadReferralData } = useReferralActions();
 
   // Load referral data on mount
