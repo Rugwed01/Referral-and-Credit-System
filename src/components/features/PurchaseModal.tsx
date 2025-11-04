@@ -3,6 +3,8 @@
  * Modal for handling product purchases with credit application
  */
 
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ShoppingCart, DollarSign, CreditCard, Check, X } from 'lucide-react';
