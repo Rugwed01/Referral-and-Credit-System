@@ -119,9 +119,7 @@ export default function DashboardPage() {
 
         {/* Recent Referrals */}
         <motion.div variants={itemVariants}>
-          <ReferredUsersList
-            referredUsers={[]} // This would come from the store
-          />
+          <ReferredUsersList referredUsers={referredUsers} />
         </motion.div>
       </div>
 
