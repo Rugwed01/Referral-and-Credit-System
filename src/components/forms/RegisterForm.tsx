@@ -3,6 +3,8 @@
  * User registration form with validation and optional referral code support
  */
 
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
