@@ -3,6 +3,8 @@
  * Card component for displaying products with purchase functionality
  */
 
+'use client';
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ShoppingCart, Star, DollarSign } from 'lucide-react';
