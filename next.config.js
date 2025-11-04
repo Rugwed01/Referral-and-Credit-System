@@ -6,9 +6,6 @@ const nextConfig = {
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
   },
-  experimental: {
-    appDir: true,
-  },
 }
 
 module.exports = nextConfig
