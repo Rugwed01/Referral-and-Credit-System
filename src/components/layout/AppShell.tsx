@@ -3,6 +3,8 @@
  * Main application layout with navigation, header, and footer
  */
 
+'use client';
+
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Home, Users, ShoppingCart, LogOut, User } from 'lucide-react';
