@@ -3,6 +3,8 @@
  * Component for displaying and sharing referral links
  */
 
+'use client';
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Copy, Share2, Check, ExternalLink } from 'lucide-react';
