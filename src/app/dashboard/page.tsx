@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Users, DollarSign, ShoppingCart, TrendingUp } from 'lucide-react';
 import { MetricsCard, ReferralLink, ReferredUsersList } from '@/components/features';
-import { useReferralCode, useReferralLink, useReferralMetrics, useReferralActions } from '@/stores';
+import { useReferralCode, useReferralLink, useReferralMetrics, useReferralActions, useReferredUsers } from '@/stores';
 import { LoadingLayout } from '@/components/layout';
 
 const containerVariants = {
