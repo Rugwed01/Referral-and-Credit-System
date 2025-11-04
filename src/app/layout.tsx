@@ -8,6 +8,7 @@ import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
 import './globals.css';
 import { APP_CONFIG } from '@/constants';
+import { NotificationProvider } from '@/components/providers';
 
 const inter = Inter({ subsets: ['latin'] });
 
