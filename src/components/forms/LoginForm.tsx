@@ -3,6 +3,8 @@
  * User login form with validation and error handling
  */
 
+'use client';
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
